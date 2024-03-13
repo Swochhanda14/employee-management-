@@ -24,7 +24,7 @@ main {
 
 .left .null {
     background-color: #7571f9;
-    height: 100px;
+    height: 75px;
     width: 100%;
     position: absolute;
     top: 0;
@@ -49,7 +49,11 @@ main {
 
 .left li i {
     margin-right: 10px;
-    color: #959494;
+    color: #4a4f53;
+}
+
+.left li a{
+    color: #767b7e;
 }
 
 .left li ul {
