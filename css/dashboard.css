@@ -429,3 +429,87 @@ form button {
 }
 
 /* ----------------------------employee section view all employee status styling ----------------------------------  */
+
+
+
+/* ----------------------------employee section profile styling ----------------------------------  */
+
+.profile-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 2px 3px 5px #9c9898;
+    padding: 20px 0;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.profile-container img{
+    height: auto;
+    width: 250px;
+    border-radius: 10px;
+}
+
+
+.profile-container h2{
+    color: #4a4f53;
+    text-align: center;
+    padding: 20px;
+}
+
+.profile-container .profile-detail h4{
+    text-align: start;
+    padding-bottom: 15px;
+    color: #767b7e;
+}
+
+.profile-container .btn{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 10px;
+}
+
+.profile-container .btn .first{
+    border: 1px solid #7571f9;
+    border-radius: 5px;
+    background-color: transparent;
+    transition: all .3s ease;
+}
+
+
+.profile-container .btn button a{
+    color: #7571f9;
+}
+
+.profile-container .btn button:hover{
+    transform: scale(.9);
+}
+
+
+.profile-container .btn .third{
+    grid-column: span 2;
+    border: 1px solid #7571f9;
+    border-radius: 5px;
+    background-color: transparent;
+    transition: all .3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #7571f9;
+}
+
+.profile-container .btn .third:hover{
+    transform: scale(.9);
+}
+
+.profile-container .btn input{
+    display: none;
+}
+
+/* ----------------------------employee section profile styling ----------------------------------  */
