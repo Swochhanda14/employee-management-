@@ -184,6 +184,8 @@ tr td {
 
 
 
+
+
 /* ---------------add new employee section------------------- */
 
 .form-container {
@@ -272,3 +274,128 @@ form button {
     color: #767b7e;
     font-weight: 700;
 }
+
+
+
+/* ----------------------------employee section leave status styling ----------------------------------  */
+
+
+.leadership{
+    margin-top: 80px;
+}
+
+.leadership table .tbl-row th{
+    border: 1px solid black;
+    text-align: end;
+}
+
+.leadership table .tbl-row td{
+    border: 1px solid black;
+    text-align: center;
+}
+
+.leadership table .tbl-row td a{
+    background-color: #7571f9;
+    padding: 5px;
+    border-radius: 5px;
+    transition: all .3s ease;
+}
+
+.leadership table .tbl-row td a .icon{
+    color: #fff;
+}
+
+.leadership table .tbl-row td a:hover{
+    background-color: #767b7e;
+}
+
+/* ----------------------------employee section leave status styling ----------------------------------  */
+
+
+
+/* ----------------------------employee section apply for leave status styling ----------------------------------  */
+
+.form-container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 50%;
+    padding: 30px 25px;
+    gap: 15px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.form-container form .user-input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    resize: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+form label {
+    color: #4a4f53;
+}
+
+form h3 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+form .gender {
+    display: flex;
+    gap: 20px;
+}
+
+form .user-input input,
+button {
+    padding: 10px;
+}
+
+form button {
+    width: 100%;
+    background-color: #7571f9;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+/* ----------------------------employee section apply for leave status styling ----------------------------------  */
+
+
+
+
+/* ----------------------------employee section view all employee status styling ----------------------------------  */
+
+.leadership{
+    margin-top: 80px;
+}
+
+.leadership .all-employee .tbl-rows th{
+    border: 1px solid black;
+    text-align: start;
+}
+
+.leadership .all-employee .tbl-rows td{
+    border: 1px solid black;
+    text-align: center;
+}
+
+/* ----------------------------employee section view all employee status styling ----------------------------------  */
