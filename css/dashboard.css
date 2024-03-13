@@ -388,14 +388,14 @@ form button {
     margin-top: 80px;
 }
 
-.leadership .all-employee .tbl-rows th{
+.leadership .all-employe3 .tbl-rows th{
     border: 1px solid black;
     text-align: start;
 }
 
 .leadership .all-employee .tbl-rows td{
     border: 1px solid black;
-    text-align: center;
+    text-align: start;
 }
 
 /* ----------------------------employee section view all employee status styling ----------------------------------  */
