@@ -262,6 +262,32 @@ form button {
     margin-bottom: 10px;
 }
 
+.employee-container table td i{
+    color: white;
+    background-color: #7571f9;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    margin: 0 10px;
+}
+table .buttons{
+    display: flex;
+    gap: 5px;
+}
+table button{
+    padding: 5px 10px;
+    font-size: 12px;
+    background-color: transparent;
+    border: 2px solid #7571f9;
+    color: #7571f9;
+    border-radius: 5px;
+}
+
+table button:nth-child(2){
+    color: crimson;
+    border: 2px solid crimson;
+}
+
 /* footer styling  */
 .sitefooter {
     text-align: center;
