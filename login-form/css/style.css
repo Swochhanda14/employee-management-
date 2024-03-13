@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins" sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(/login-form/media/bg.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* main form link  */
+.main-container {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.main-container form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+}
+
+.button{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.button button{
+    padding: 15px 20px;
+    /* margin: 0 30px; */
+    border-radius: 5px;
+    background-color: #7076fe;
+    border: none;
+    /* width: 100%; */
+}
+
+.button button > a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+/* main form link  */
+
+
+/* employee form styling */
+.employ-form-container {
+    background-color: #fff;
+    display: flex;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding:50px 30px;
+    border-radius: 15px;
+}
+
+.employ-form-container form > label,
+.employ-form-container form > span {
+    color: #959494;
+}
+
+
+.employ-form-container  .header{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: start;
+}
+
+.employ-form-container  .header  a > i {
+    font-size: 25px;
+    color: black;
+}
+
+.employ-form-container .header h1{
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-left: 140px;
+}
+
+.employ-form-container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    gap: 15px;
+}
+
+.employ-form-container form > input {
+    padding: 10px 15px;
+}
+
+.employ-form-container form > button {
+    margin-top: 10px;
+    width: 100%;
+    padding: 15px 25px;
+    border: none;
+    color: white;
+    background-color: #7076fe;
+    border-radius: 5px;
+    margin-bottom: 5px; 
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.employ-form-container form > span > a {
+    color: #7076fe;
+    text-decoration: none;
+}
+/* employee form styling */
+
+
+/* admin form styling  */
+.admin-container {
+    background-color: #fff;
+    display: flex;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding:50px 30px;
+    border-radius: 15px;
+}
+
+.admin-container form > label,
+.admin-container form > span {
+    color: #959494;
+}
+
+.admin-container .header{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: start;
+}
+
+.admin-container  .header  a > i {
+    font-size: 25px;
+    color: black;
+}
+
+.admin-container .header h1{
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-left: 140px;
+}
+
+
+.admin-container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    gap: 15px;
+}
+
+.admin-container form > input {
+    padding: 10px 15px;
+}
+
+
+
+.admin-container form > button {
+    margin-top: 10px;
+    width: 100%;
+    padding: 15px 25px;
+    border: none;
+    color: white;
+    background-color: #7076fe;
+    border-radius: 5px;
+    margin-bottom: 5px; 
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 5px; 
+}
+
+.admin-container form > span > a {
+    color: #7076fe;
+    text-decoration: none;
+}
+
+/* admin form styling  */
+
+
+/* footer styling  */
+.sitefooter small{
+    text-align: center;
+    color: #959494;
+    background-color: #fff;
+    padding: 20px;
+}
+/* footer styling  */
