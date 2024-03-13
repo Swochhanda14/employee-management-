@@ -33,7 +33,7 @@
                 </li>
                 <li><a href="manageLeave.html"><i class="fa-solid fa-bars-progress"></i>Manage employee leave</a></li>
                 <li></i><a href="login-form/index.html"><i class="fa-solid fa-right-from-bracket"></i>Log out</a></li>
-                <li><a href=""><i class="fa-solid fa-user"></i>Profile</a></li>
+                <li><a href="profileadmin.html"><i class="fa-solid fa-user"></i>Profile</a></li>
             </nav>
         </div>
 
@@ -47,8 +47,8 @@
                     <h3>add new admin</h3>
 
                     <div class="user-input">
-                        <label for="name">Full name</label>
-                        <input type="text" name="name" placeholder="Full name">
+                        <label for="name">Full Name</label>
+                        <input type="text" name="name" placeholder="Full name" required>
                     </div>
 
                     <div class="user-input">
@@ -60,13 +60,32 @@
 
                     <div class="user-input">
                         <label for="DOB">Date of birth</label>
-                        <input type="date" name="DOB">
+                        <input type="date" name="DOB" required>
                     </div>
 
-                    <div class="gender">
-                        <label for="gender">Gender:</label>
-                        <input type="radio"><label for="male">Male</label>
-                        <input type="radio"><label for="male">Male</label>
+                    <div class="gender"> 
+                        <label for="gender">Gender</label>           
+                        <label for="e_male">
+                            <input type="radio"
+                                    name="e_gender"
+                                    id="e_male"
+                                    value="male">Male
+                        </label> 
+            
+                        <label for="e_female">
+                            <input type="radio"
+                                    name="e_gender"
+                                    id="e_female"
+                                    value="female">Female
+                        </label>
+            
+                        <label for="e_other">
+                            <input type="radio"
+                                    name="e_gender"
+                                    id="e_other"
+                                    value="other">Other
+                        </label>
+
                     </div>
 
                     <div class="button">
